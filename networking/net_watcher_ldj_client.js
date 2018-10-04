@@ -1,5 +1,4 @@
 'use strict'
-
 const netClient = require('net').connect({ port: 60300 })
 const ldjClient = require('./lib/ldj_client.js').connect(netClient)
 
